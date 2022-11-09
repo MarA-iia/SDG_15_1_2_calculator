@@ -1,0 +1,47 @@
+# This file contains metadata for your plugin.
+
+# This file should be included when you package your plugin.# Mandatory items:
+
+[general]
+name=SDG_15_1_2_calculator
+qgisMinimumVersion=3.0
+description=Proportion of important sites for terrestrial and freshwater biodiversity that are covered by protected areas, by ecosystem type
+version=0.1
+author=IIA-CNR
+email=aquilino@iia.cnr.it
+
+about=Proportion of important sites for terrestrial and freshwater biodiversity that are covered by protected areas, by ecosystem type. Required input: 1) Key Biodiversity Areas map (https://www.keybiodiversityareas.org/); 2) Protected Area Boundary (World Database on Protected Areas - WDPA); 3)Ecosystem map (raster binary map)
+
+tracker=https://github.com/MarA-iia/SDG_15_1_2_calculator/
+repository=https://github.com/MarA-iia/SDG_15_1_2_calculator/
+# End of mandatory metadata
+
+# Recommended items:
+
+hasProcessingProvider=yes
+# Uncomment the following line and add your changelog:
+# changelog=
+
+# Tags are comma separated with spaces allowed
+tags=python
+
+homepage=https://github.com/MarA-iia/SDG_15_1_2_calculator/
+category=Analysis
+icon=SDG_15_icon.jpg
+# experimental flag
+experimental=True
+
+# deprecated flag (applies to the whole plugin, not just a single version)
+deprecated=False
+
+# Since QGIS 3.8, a comma separated list of plugins to be installed
+# (or upgraded) can be specified.
+# Check the documentation for more information.
+# plugin_dependencies=
+
+Category of the plugin: Raster, Vector, Database or Web
+# category=
+
+# If the plugin can run on QGIS Server.
+server=False
+
